@@ -12,4 +12,10 @@ mix
   .js('resources/scripts/script.js', 'js');
 
 mix
- .copyDirectory('resources/images', 'assets/images');
+  .copyDirectory('resources/images', 'assets/images');
+
+// mix
+//   .copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', 'assets/fonts/fontawesome')
+
+// mix
+//   .copyDirectory('resources/fonts', 'assets/fonts');

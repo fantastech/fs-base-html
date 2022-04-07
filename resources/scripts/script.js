@@ -1,11 +1,12 @@
 var $ = require('jquery');
 window.$ = $;
-// require('bootstrap');
+// window.bootstrap = require('bootstrap');
+// require('select2');
 
 (function($){
 
     // Helps equalizing height of elements
-    function equalizeHeights(elements){
+    /* function equalizeHeights(elements){
       elements.forEach(function(elem){
           var $element = $(elem[0]);
           if($element.length > 0){
@@ -28,24 +29,24 @@ window.$ = $;
             }
           }
       });
-    }
+    } */
 
     // Run code when docuemnt is ready
     $(document).ready(function(){
 
       // Equalize height of the following elements
-      var equalizeHeightElements = [
-          ['.row-preset-some-class .post-title', false],
-          ['.row-preset-other-class .post-summary', false],
-      ];
-      equalizeHeights(equalizeHeightElements);
+      // var equalizeHeightElements = [
+      //     ['.row-preset-some-class .post-title', false],
+      //     ['.row-preset-other-class .post-summary', false],
+      // ];
+      // equalizeHeights(equalizeHeightElements);
 
       // Equalize height of elements on page resize
-      $(window).resize(function(){
-        equalizeHeights(equalizeHeightElements);
-      });
+      // $(window).resize(function(){
+      //   equalizeHeights(equalizeHeightElements);
+      // });
 
-      // Your JS code here.
+      // Your JS starts below this line.
 
     });
 
